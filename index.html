@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,13 +40,13 @@
   <input type="text" id="topic" placeholder="e.g. Should school uniforms be mandatory?" />
 
   <button onclick="generateWriting()">Generate Writing</button>
-  <button onclick="generateFeedback()">Generate Feedback</button>
 
   <label for="output">Generated Writing</label>
   <pre id="output">Your AI writing will appear here...</pre>
 
   <label for="comment">Examiner Feedback</label>
   <pre id="comment">Click 'Generate Feedback' to get examiner response.</pre>
+  <button onclick="generateFeedback()">Generate Feedback</button>
 
   <script>
     let cachedWriting = "";
